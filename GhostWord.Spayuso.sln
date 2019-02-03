@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GhostWord.Spayuso.Api", "GhostWord.Spayuso\GhostWord.Spayuso.Api.csproj", "{0C3059F9-B56C-458A-94AA-683312FA0E68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GhostWord.spayuso.Web", "GhostWord.spayuso.Web\GhostWord.spayuso.Web.csproj", "{88A7CDC4-A87C-47AD-A22A-F78B72D85EC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GhostWord.Spayuso.Service", "GhostWord.Spayuso.Service\GhostWord.Spayuso.Service.csproj", "{1E953832-A0B4-46C0-8C8B-2BC0A31A2C61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GhostWord.Spayuso.Infraestructure", "GhostWord.Spayuso.Infraestructure\GhostWord.Spayuso.Infraestructure.csproj", "{77ABD76E-AA62-4F62-8C9B-42501FCBFD10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GhostWord.Spayuso.Infraestructure.UnitTest", "GhostWord.Spayuso.Infraestructure.UnitTest\GhostWord.Spayuso.Infraestructure.UnitTest.csproj", "{3C7B56A6-65BD-4371-AFAF-B2F2E86494C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GhostWord.Spayuso.Infraestructure.IntegrationTest", "GhostWord.Spayuso.Infraestructure.IntegrationTest\GhostWord.Spayuso.Infraestructure.IntegrationTest.csproj", "{116008AD-A7AD-463B-BC37-1DEFC95D20BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C3059F9-B56C-458A-94AA-683312FA0E68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C3059F9-B56C-458A-94AA-683312FA0E68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C3059F9-B56C-458A-94AA-683312FA0E68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C3059F9-B56C-458A-94AA-683312FA0E68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88A7CDC4-A87C-47AD-A22A-F78B72D85EC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88A7CDC4-A87C-47AD-A22A-F78B72D85EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88A7CDC4-A87C-47AD-A22A-F78B72D85EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88A7CDC4-A87C-47AD-A22A-F78B72D85EC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E953832-A0B4-46C0-8C8B-2BC0A31A2C61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E953832-A0B4-46C0-8C8B-2BC0A31A2C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E953832-A0B4-46C0-8C8B-2BC0A31A2C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E953832-A0B4-46C0-8C8B-2BC0A31A2C61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77ABD76E-AA62-4F62-8C9B-42501FCBFD10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77ABD76E-AA62-4F62-8C9B-42501FCBFD10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77ABD76E-AA62-4F62-8C9B-42501FCBFD10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77ABD76E-AA62-4F62-8C9B-42501FCBFD10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C7B56A6-65BD-4371-AFAF-B2F2E86494C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C7B56A6-65BD-4371-AFAF-B2F2E86494C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C7B56A6-65BD-4371-AFAF-B2F2E86494C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C7B56A6-65BD-4371-AFAF-B2F2E86494C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{116008AD-A7AD-463B-BC37-1DEFC95D20BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{116008AD-A7AD-463B-BC37-1DEFC95D20BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{116008AD-A7AD-463B-BC37-1DEFC95D20BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{116008AD-A7AD-463B-BC37-1DEFC95D20BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CDDC98F5-FF91-4A95-B3F3-6A32438BAD1F}
+	EndGlobalSection
+EndGlobal

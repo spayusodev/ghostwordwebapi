@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GhostWord.Spayuso.Infraestructure\GhostWord.Spayuso.Infraestructure.csproj" />
+  </ItemGroup>
+
+</Project>
