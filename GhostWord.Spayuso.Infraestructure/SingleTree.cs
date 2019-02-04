@@ -80,14 +80,10 @@ namespace GhostWord.Spayuso.Infraestructure
 
         public bool NodeWithoutChilds()
         {
-            bool dictionaryIsEmpty;
             using (var dictionaryEnum = this._dataDictionary.GetEnumerator())
             {
-                dictionaryIsEmpty = !dictionaryEnum.MoveNext();
+                return dictionaryEnum.MoveNext();
             }
-
-            return dictionaryIsEmpty;
-                //return this._dataDictionary.Any(x => x.Value == null);
         }
 
         public int NodeWithoutChildsCount()

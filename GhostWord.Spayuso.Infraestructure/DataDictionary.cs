@@ -31,6 +31,10 @@ namespace GhostWord.Spayuso.Infraestructure
             }
         }
 
+        /// <summary>
+        /// Only for test purposes
+        /// </summary>
+        /// <returns></returns>
         public int Size()
         {
             int count = 0;
@@ -75,27 +79,6 @@ namespace GhostWord.Spayuso.Infraestructure
                 return node;
             }
             return null;
-        }
-
-        public bool WordIsFull(string wordToCheck)
-        {
-            SingleTree node = this.GetLastNode(wordToCheck);
-
-            if(node != null && node.NodeWithoutChilds()) 
-            {
-                return true;
-            }
-            return false;
-        }
-
-        public bool DictionaryContainsWord(string wordToCheck)
-        {
-            SingleTree node = this.GetLastNode(wordToCheck);
-            if(node != null)
-            {
-                return true;
-            }
-            return false;
         }
     }
 }

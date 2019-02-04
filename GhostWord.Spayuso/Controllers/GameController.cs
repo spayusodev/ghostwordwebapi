@@ -27,7 +27,7 @@ namespace GhostWord.Spayuso.Controllers
             var gameIsReady = this._service.StartGame();
             if(!gameIsReady)
             {
-                return NotFound();
+                return NotFound(gameIsReady);
             }
             return Ok(gameIsReady);
             
@@ -39,27 +39,29 @@ namespace GhostWord.Spayuso.Controllers
         {
             if(string.IsNullOrWhiteSpace(word))
             {
-                return BadRequest();
+                return BadRequest("Word to check must be supplied");
             }
 
-            GameModel gameModel;
             var game = this._service.AddLetter(word);
 
-            if(string.Equals(word, game))
+            return Ok(GetGameModel(word, game));
+            
+        }
+
+        private static GameModel GetGameModel(string newWord, string gameWord)
+        {
+            if(String.Equals(newWord, gameWord))
             {
-                gameModel = new GameModel(game, GameStatus.YouLoose);
+                return new GameModel(gameWord, GameStatus.YouLoose);
             }
-            else if(game.Length > word.Length)
+            else if (gameWord.Length > newWord.Length)
             {
-                gameModel = new GameModel(game, GameStatus.ContinueGame);
+                return new GameModel(gameWord, GameStatus.ContinueGame);
             }
             else
             {
-                gameModel = new GameModel(game, GameStatus.YouWin);
-                
-            }
-
-            return Ok(gameModel);
+                return new GameModel(gameWord, GameStatus.YouWin);
+            }            
         }
     }
 }

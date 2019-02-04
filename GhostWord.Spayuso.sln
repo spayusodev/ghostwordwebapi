@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GhostWord.Spayuso.Api", "GhostWord.Spayuso\GhostWord.Spayuso.Api.csproj", "{0C3059F9-B56C-458A-94AA-683312FA0E68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GhostWord.Spayuso.Api", "GhostWord.Spayuso\GhostWord.Spayuso.Api.csproj", "{0C3059F9-B56C-458A-94AA-683312FA0E68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GhostWord.spayuso.Web", "GhostWord.spayuso.Web\GhostWord.spayuso.Web.csproj", "{88A7CDC4-A87C-47AD-A22A-F78B72D85EC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GhostWord.spayuso.Web", "GhostWord.spayuso.Web\GhostWord.spayuso.Web.csproj", "{88A7CDC4-A87C-47AD-A22A-F78B72D85EC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GhostWord.Spayuso.Service", "GhostWord.Spayuso.Service\GhostWord.Spayuso.Service.csproj", "{1E953832-A0B4-46C0-8C8B-2BC0A31A2C61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GhostWord.Spayuso.Service", "GhostWord.Spayuso.Service\GhostWord.Spayuso.Service.csproj", "{1E953832-A0B4-46C0-8C8B-2BC0A31A2C61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GhostWord.Spayuso.Infraestructure", "GhostWord.Spayuso.Infraestructure\GhostWord.Spayuso.Infraestructure.csproj", "{77ABD76E-AA62-4F62-8C9B-42501FCBFD10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GhostWord.Spayuso.Infraestructure", "GhostWord.Spayuso.Infraestructure\GhostWord.Spayuso.Infraestructure.csproj", "{77ABD76E-AA62-4F62-8C9B-42501FCBFD10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GhostWord.Spayuso.Infraestructure.UnitTest", "GhostWord.Spayuso.Infraestructure.UnitTest\GhostWord.Spayuso.Infraestructure.UnitTest.csproj", "{3C7B56A6-65BD-4371-AFAF-B2F2E86494C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GhostWord.Spayuso.Infraestructure.UnitTest", "GhostWord.Spayuso.Infraestructure.UnitTest\GhostWord.Spayuso.Infraestructure.UnitTest.csproj", "{3C7B56A6-65BD-4371-AFAF-B2F2E86494C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GhostWord.Spayuso.Infraestructure.IntegrationTest", "GhostWord.Spayuso.Infraestructure.IntegrationTest\GhostWord.Spayuso.Infraestructure.IntegrationTest.csproj", "{116008AD-A7AD-463B-BC37-1DEFC95D20BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GhostWord.Spayuso.Infraestructure.IntegrationTest", "GhostWord.Spayuso.Infraestructure.IntegrationTest\GhostWord.Spayuso.Infraestructure.IntegrationTest.csproj", "{116008AD-A7AD-463B-BC37-1DEFC95D20BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GhostWord.Spayuso.Api.Controller.Test", "GhostWord.Spayuso.Api.Controller.Test\GhostWord.Spayuso.Api.Controller.Test.csproj", "{FB679E11-85BB-4212-AA4C-F6C706B8C981}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{116008AD-A7AD-463B-BC37-1DEFC95D20BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{116008AD-A7AD-463B-BC37-1DEFC95D20BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{116008AD-A7AD-463B-BC37-1DEFC95D20BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB679E11-85BB-4212-AA4C-F6C706B8C981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB679E11-85BB-4212-AA4C-F6C706B8C981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB679E11-85BB-4212-AA4C-F6C706B8C981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB679E11-85BB-4212-AA4C-F6C706B8C981}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
